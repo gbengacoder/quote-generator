@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins';
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card{
+    height: fit-content ;
+    width: 300px;
+    border: 2px solid black;
+    
+}
+
+.quote{
+    margin: 15px;
+}
+
+.author{
+    margin: 15px;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.card-btn{
+    margin-top: 25px;
+    background: blue;
+    padding: 10px 8px;
+    border-radius: 9px;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-align: center;
+}
